@@ -1,0 +1,735 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.orange{
+    color: #FC4308;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+i{
+    font-size: 20px;
+    color: #000;
+    font-weight: 900;
+    line-height: 20px;
+}
+
+.marginContainer{
+    margin: 45px 0 0 0;
+}
+
+header{
+    width: 95%;
+    height: 48px;
+}
+
+.headerLeft{
+    width: 664px;
+    gap: 31px;
+    padding-top: 14px;
+}
+
+.headerLogo{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25.78px;
+}
+
+.headerMenu{
+    width: 444px;
+}
+
+.headerMenu a{
+    gap: 18px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    margin: 14px;
+}
+
+.headerRight{
+    gap: 25px;
+}
+
+.search{
+    width: 299px;
+    height: 48px;
+    padding: 14px 16px 14px 16px;
+    gap: 20px;
+    background-color: #F5F5F5;
+}
+
+.search:first-child{
+    color: #3E3232BF;
+}
+
+.search input{
+    width: 287px;
+    height: 14px;
+    outline: none;
+    font-size: 12px;
+    color: #3E3232BF;
+    font-weight: 400;
+    line-height: 14.06px;
+}
+
+.userDetails{
+    width: 200px;
+}
+.userDetails .user{
+    width: 134px;
+    height: 14px;
+}
+.userDetails .user img{
+    width: 48px;
+    height: 48px;
+}
+
+.userDetails .user .userName{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    margin: 0;
+}
+
+.userDetails .user .userAngle{
+    font-size: 14px;
+    color: #3E323280;
+}
+
+.marks{
+    width: 48px;
+    height: 48px;
+    background-color: #F5F5F5;
+}
+
+.headerLeft .navicon i{
+    color: #000;
+    font-size: 20px;
+    font-weight: 900;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+.navicon{
+    border-radius: 12px;
+    background-color: #F5F5F5;
+    display: none;
+}
+
+
+.writerContainer{
+    width: 95%;    
+}
+
+
+
+
+.nextContainer{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 95%;
+}
+
+.polgsContainer{
+    width: 95%;
+    margin-bottom: 70px;
+}
+
+.plogHaeder{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.plogHaeder .mainPlogTitle p{
+    padding-left: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+}
+.plogHaeder .mainPlogTitle p::before{
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 0;
+    background-color: #FC4308;
+    width: 4px;
+    height: 10px;
+    border-radius: 12px;
+}
+
+.plogArrows{
+    width: 100px;
+    height: 40px;
+}
+
+.plogArrows .arrow{
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.plogs{
+    width: 101%;
+    min-height: 389px;
+}
+
+.plog{
+    width: 360px;
+    height: 389px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.07);
+}
+
+.plog img{
+    width: 340px;
+    height: 190px;
+}
+
+.plog .plogTitle{
+    width: 390px;
+    height: 51px;
+    padding: 16px 16px 16px 6px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    color: #3E3232;
+}
+
+.plog .plogContent{
+    width: 340px;
+    height: 40px;
+    padding: 0px 16px 16px 6px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #3E3232BF;
+}
+
+.plog .userDetails{
+    width: 340px;
+    height: 72px;
+    margin-top: 16px;
+    padding: 13px 16px 13px 16px;
+    background-color: #F5F5F5;
+}
+
+.user{
+    width: 288px;
+    height: 44px;
+    gap: 10px;
+}
+
+.user img{
+    width: 44px;
+    height: 44px;
+}
+
+.user .userInfo{
+    width: 234px;
+    height: 44px;
+    gap: 4px;
+}
+
+.user .userInfo p{
+    width: 234px;
+    height: 44px;
+}
+
+.user .userInfo .userName{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #3E3232
+}
+
+.user .userInfo .userDate{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #3E3232BF;
+}
+
+.plog .userDetails .user .marks{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(62, 50, 50, 0.5);
+    margin-top: 13px;
+}
+
+
+
+
+.footer{
+    width: 95%;
+    height: 483px;
+}
+
+.footer .Title p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    padding: 0 0 20px 8px;
+}
+.footer .Title p::before{
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 0;
+    background-color: #FC4308;
+    width: 4px;
+    height: 10px;
+    border-radius: 12px;
+}
+
+.divOne{
+    width: 948px;
+    height: 483px;
+    background-color: #F5F5F5;
+    border-radius: 0px 50px 50px 0px;
+    padding: 40px 40px 0 0;
+}
+
+.about{
+    width: 360px;
+    height: 202px;
+    padding-left: 40px;
+}
+
+.about .columContent{
+    width: 350px;
+    height: 159px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 8px;
+    color: #3E3232BF;
+}
+
+.categories{
+    padding-top: 30px;
+    width: 399px;
+    height: 91px;
+    border-radius: 12px;
+    padding-left: 40px;
+}
+.categories .Title p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    padding: 0 0 20px 8px;
+}
+.categories .Title p::before{
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 0;
+    background-color: #FC4308;
+    width: 4px;
+    height: 10px;
+    border-radius: 12px;
+}
+
+.columSearch{
+    width: 399px;
+    height: 48px;
+    padding: 8px 12px 8px 8px;
+    background-color: #fff;
+}
+
+.columSearch input{
+    outline: none;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.columSearch i{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.newsletters{
+    width: 108px;
+    height: 202px;
+}
+
+.newsletters .columContent{
+    width: 130px;
+    height: 159px;
+    padding-left: 8px;
+    gap: 5px;
+}
+
+.rightRightColumn{
+    height: 100%;
+}
+
+.insta{
+    width: 128px;
+    height: 40px;
+    padding: 10px 24px 10px 16px;
+    gap: 8px;
+    background: linear-gradient(#F45C9F,#FF7563);
+}
+
+.insta p{
+    margin-bottom: 0;
+}
+
+.twiter{
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background: linear-gradient(#2CA5E0,#67C9F5);
+    margin-left: 15px;
+}
+
+.social-network{
+    margin-top: 34px;
+}
+.social-network .Title p{
+    padding: 0 0 20px 8px;
+}
+
+.copy{
+    width: Fixed(908px);
+    height: Fixed(48px);
+    background-color: #3E32320D;
+    border-radius: 0px 12px 12px 0px;
+    padding: 8px 12px 8px 40px;
+    gap: 16px;
+    margin-top: 25px;
+}
+
+.copy .left p,
+.copy .right p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #3E3232BF;
+}
+
+.colum5{
+    margin: 0 31px;
+}
+.colum5 ,
+.colum6{
+    padding: 40px 0;
+    width: 360px;
+    height: 403px;
+}
+
+.colum5Content,
+.colum6Content{
+    width: 360px;
+    height: 360px;
+}
+
+.colum5Content .comment{
+    width: 360px;
+    height: 75px;
+    padding: 16px;
+    background-color: #F5F5F5;
+}
+
+.comment .head{
+    font-size: 16px;
+    font-weight: 500;
+    color: #3E3232;
+}
+
+.comment .subHead{
+    font-size: 12px;
+    font-weight: 400;
+    color: #3E3232BF;
+
+}
+
+.colum6Content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.colum6Content img{
+    width: 104px;
+    height: 104px;
+}
+
+.writerContent img{
+    width: 100%;
+}
+
+.writerContainer{
+    width: 95%;
+}
+
+.writerInfo{
+    height: 100px;
+}
+
+.img img{
+    width: 75px;
+    height: 75px;
+}
+
+.img p{
+    font-size: 16px;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+.raring{
+    font-size: 14px;
+    color: #3E3232BF;
+}
+
+.rate{
+    width: 405px;
+    height: 20px;
+}
+
+.space{
+    margin-left: 5px;
+}
+
+.nextt{
+    width: 319px;
+    height: 40px;
+    gap: 5px;
+    margin-top: -29px;
+    margin-bottom: 45px;
+}
+
+.nextt li{
+    min-width: 40px;
+    height: 40px;
+}
+
+.next1{
+    background-color: #F5F5F5;
+}
+.next2{
+    width: 94px;
+    background-color: #F5F5F5;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 1370px){
+    body{
+        width: 1370px;
+        display: inline;
+    }
+    .marginContainer{
+        margin: 45px 40px;
+    }
+    .colum5,
+    .colum6{
+        display: none;
+    }
+}
+
+
+@media(max-width: 700px){
+    .navicon{
+        display: inline;
+    }
+    .headerMenu{
+        width: 0;
+        height: 0;
+        overflow: hidden;
+    }
+    .plog{
+        width: 360px;
+        height: 389px;    
+    }
+    .plog{
+        width: 604px;
+        height: 210px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    .plog img{
+        width: 190px;
+        height: 190px;
+        border-radius: 12px;    
+    }
+    .plogHaeder{
+        width: 95%;
+    }
+    .plog .plogTitle{
+        font-size: 15px;
+        width: 390px;
+        height: 51px;
+        padding: 16px 16px 16px 6px;    
+    }
+    .plog .plogContent{
+        width: 400px;
+        height: 40px;
+        padding: 0px 16px 16px 6px;    
+    }
+    .plog .userDetails{
+        width: 380px;
+        height: 72px;
+        border-radius: 12px;
+        margin-top: 16px;
+        padding: 13px 16px 13px 16px;    
+    }
+    .plog .user{
+        width: 288px;
+        height: 44px;
+        gap: 10px;        
+    }
+    .user img{
+        width: 44px;
+        height: 44px;
+        border-radius: 12px;
+    }
+    .user .userInfo{
+        width: 230px;
+        height: 44px;
+        gap: 4px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .user .userInfo p{
+        width: 200px;
+        height: 44px;
+    }
+    
+    .user .userInfo .userName{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        color: #3E3232
+    }
+    
+    .user .userInfo .userDate{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        color: #3E3232BF;
+    }
+    
+    .user .marks{
+        font-size: 20px;
+        font-weight: 400;
+        color: rgba(62, 50, 50, 0.5);
+    }        
+    .search{
+        position: absolute;
+        right: 35px;
+        bottom: -68px;
+        width: 629px;
+    }
+    .search input{
+        width: 100%;
+    }
+    .pageTitle{
+        margin-top: 100px;
+    }
+    .headerRight .userDetails{
+        position: relative;
+        left: -37px;
+    }
+
+    .writerContainer{
+        width: 91%;
+    }
+
+    .writerImg{
+        width: 597px;
+    }
+
+    .rate{
+        position: absolute;
+        top: 66px;
+        left: 90px;
+        width: 350px;
+    }
+}
+
+@media(max-width: 500px){
+    .headerLogo,
+    .raring span,
+    .writerImg{
+        display: none;
+    }
+    .footer{
+        width: 0;
+        height: 0;
+        overflow: hidden;
+    }
+    .userDetails{
+        width: 0;
+        height: 0;
+        overflow: hidden;
+    }
+    .search{
+        position: relative;
+        width: 283px;
+        top: 7px;
+        left: -18px;
+    }    
+    .pageTitle{
+        margin-top: 0;
+    }
+    .writerContainer{
+        width: 87%;
+    }
+    .rate{
+        width: 150px;
+    }
+    .plog{
+        width: 358px;
+        height: 385px;
+        display: flex;
+        flex-direction: column;
+    }
+    .plog img{
+        width: 338px;
+        height: 186px;
+    }
+    .plog .plogContent,
+    .plog .plogTitle{
+        width: 350px;
+    }
+    .plog .userDetails{
+        width: 335px;
+    }
+}

@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="d-flex justify-content-between align-items-center marginContainer">
+    <div class="headerLeft d-flex align-items-center">
+      <div class="navicon">
+        <i class="fa-solid fa-bars d-flex align-items-center justify-content-center"></i>
+      </div>
+      <h2 class="headerLogo orange">MEGA.news</h2>
+      <div class="headerMenu d-flex">
+        <a href="#" class="text-dark text-capitalize d-flex align-items-center">Categories <i class="fa-solid fa-angle-down"></i></a>
+        <a href="#" class="text-dark text-capitalize d-flex align-items-center">Pages <i class="fa-solid fa-angle-down"></i></a>
+        <a href="#" class="text-dark text-capitalize d-flex align-items-center">contact us</a>
+        <a href="#" class="text-dark text-capitalize d-flex align-items-center">about us</a>
+      </div>
+    </div>
+    <div class="headerRight position-relative d-flex align-items-center">
+      <div class="search d-flex align-items-center rounded-3">
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+        <input type="search" placeholder="Search anything" class="bg-transparent border-0">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="userDetails d-flex justify-content-between align-items-center">
+        <div class="user d-flex justify-content-center align-items-center">
+          <img src="images/userImg.jpg" class="rounded-3">
+          <p class="userName">Behzad</p>
+          <i class="fa-solid fa-angle-down userAngle"></i>
+        </div>
+        <i class="fa-regular fa-bookmark marks d-flex justify-content-center align-items-center rounded-3"></i>
+      </div>
+    </div>
+  </header>
+
+  <div class="writerContainer marginContainer">
+    <div class="pageTitle">
+      <p>Home > writer</p>
+    </div>
+    <div class="writerContent p-1">
+      <img src="images/writerBG.png" class="writerImg rounded-3">
+      <div class="writerInfo position-relative d-flex align-items-center justify-content-between">
+        <div class="img d-flex align-items-center">
+          <img src="images/writer.png" class="rounded-3">
+          <p>Louis Hoebregts</p>
+        </div>
+        <div class="rate d-flex align-items-center justify-content-between">
+          <div class="star d-flex align-items-center">
+            <i class="fa-regular fa-star raring"></i>
+            <p class="mb-0 raring space"><span>Rate:</span>4.2</p>
+          </div>
+          <div class="Follower d-flex align-items-center">
+            <i class="fa-regular fa-user raring"></i>
+            <p class="mb-0 raring space"><span>Follower : </span>1.2K</p>
+          </div>
+          <div class="postt d-flex align-items-center">
+            <i class="fa-regular fa-clipboard raring"></i>
+            <p class="mb-0 raring space"><span>Post : </span>29</p>
+          </div>
+        </div>
+        <div class="follow">
+          <button class="btn btn-danger">+ Follow</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="polgsContainer marginContainer">
+    <div class="plogHaeder d-flex justify-content-between align-items-center">
+      <div class="mainPlogTitle">
+        <p class="position-relative text-capitalize">Latest posts</p>
+      </div>
+      <div class="plogArrows d-flex justify-content-between">
+        <div class="arrow  d-flex justify-content-center align-items-center left"><i class="fa-solid fa-angle-left"></i></div>
+        <div class="arrow  d-flex justify-content-center align-items-center right"><i class="fa-solid fa-angle-right"></i></div>
+      </div>
+    </div>
+    <div class="plogs position-relative row d-flex flex-wrap justify-content-space-evenly">
+      <div class="plog position-relative col-3 m-2">
+        <img src="images/last.png" class="pligImg rounded-3">
+        <div class="plogContr d-flex flex-column">
+          <div class="plogTitle pr-1">
+            <p>How to Persuade Your Parents to Buy Fast Food</p>
+          </div>
+          <div class="plogContent pr-1 overflow-hidden">
+            <p>Parents often don’t want to buy fast food. They may be worried that it’s too expensive, unhealthy, or not
+              worth the effort and time.</p>
+          </div>
+          <div class="userDetails d-flex justify-content-between rounded-3">
+            <div class="user d-flex justify-content-between">
+              <img src="images/userplog4.png" class="rounded-3">
+              <div class="userInfo d-flex align-items-center flex-column">
+                <p class="userName">Jon Kantner</p>
+                <p class="userDate">May 10 , 2022</p>
+              </div>
+            </div>
+            <i class="fa-regular fa-bookmark marks d-flex justify-content-center align-items-center"></i>
+          </div>
+        </div>
+      </div>
+      <div class="plog position-relative col-2 m-2">
+        <img src="images/plog2.png" class="pligImg rounded-3">
+        <div class="plogContr d-flex flex-column">
+          <div class="plogTitle pr-1">
+            <p>How to Persuade Your Parents to Buy Fast Food</p>
+          </div>
+          <div class="plogContent pr-1 overflow-hidden">
+            <p>Parents often don’t want to buy fast food. They may be worried that it’s too expensive, unhealthy, or not
+              worth the effort and time.</p>
+          </div>
+          <div class="userDetails d-flex justify-content-between rounded-3">
+            <div class="user d-flex justify-content-between">
+              <img src="images/userplog4.png" class="rounded-3">
+              <div class="userInfo d-flex align-items-center flex-column">
+                <p class="userName">Jon Kantner</p>
+                <p class="userDate">May 10 , 2022</p>
+              </div>
+            </div>
+            <i class="fa-regular fa-bookmark marks d-flex justify-content-center align-items-center"></i>
+          </div>
+        </div>
+      </div>
+      <div class="plog position-relative col-2 m-2">
+        <img src="images/plog3.png" class="pligImg rounded-3">
+        <div class="plogContr d-flex flex-column">
+          <div class="plogTitle pr-1">
+            <p>How to Persuade Your Parents to Buy Fast Food</p>
+          </div>
+          <div class="plogContent pr-1 overflow-hidden">
+            <p>Parents often don’t want to buy fast food. They may be worried that it’s too expensive, unhealthy, or not
+              worth the effort and time.</p>
+          </div>
+          <div class="userDetails d-flex justify-content-between rounded-3">
+            <div class="user d-flex justify-content-between">
+              <img src="images/userplog4.png" class="rounded-3">
+              <div class="userInfo d-flex align-items-center flex-column">
+                <p class="userName">Jon Kantner</p>
+                <p class="userDate">May 10 , 2022</p>
+              </div>
+            </div>
+            <i class="fa-regular fa-bookmark marks d-flex justify-content-center align-items-center"></i>
+          </div>
+        </div>
+      </div>
+      <div class="plog position-relative col-2 m-2">
+        <img src="images/plog4.png" class="pligImg rounded-3">
+        <div class="plogContr d-flex flex-column">
+          <div class="plogTitle pr-1">
+            <p>How to Persuade Your Parents to Buy Fast Food</p>
+          </div>
+          <div class="plogContent pr-1 overflow-hidden">
+            <p>Parents often don’t want to buy fast food. They may be worried that it’s too expensive, unhealthy, or not
+              worth the effort and time.</p>
+          </div>
+          <div class="userDetails d-flex justify-content-between rounded-3">
+            <div class="user d-flex justify-content-between">
+              <img src="images/userplog4.png" class="rounded-3">
+              <div class="userInfo d-flex align-items-center flex-column">
+                <p class="userName">Jon Kantner</p>
+                <p class="userDate">May 10 , 2022</p>
+              </div>
+            </div>
+            <i class="fa-regular fa-bookmark marks d-flex justify-content-center align-items-center"></i>
+          </div>
+        </div>
+      </div>
+      <div class="plog position-relative col-2 m-2">
+        <img src="images/plog4.png" class="pligImg rounded-3">
+        <div class="plogContr d-flex flex-column">
+          <div class="plogTitle pr-1">
+            <p>How to Persuade Your Parents to Buy Fast Food</p>
+          </div>
+          <div class="plogContent pr-1 overflow-hidden">
+            <p>Parents often don’t want to buy fast food. They may be worried that it’s too expensive, unhealthy, or not
+              worth the effort and time.</p>
+          </div>
+          <div class="userDetails d-flex justify-content-between rounded-3">
+            <div class="user d-flex justify-content-between">
+              <img src="images/userplog4.png" class="rounded-3">
+              <div class="userInfo d-flex align-items-center flex-column">
+                <p class="userName">Jon Kantner</p>
+                <p class="userDate">May 10 , 2022</p>
+              </div>
+            </div>
+            <i class="fa-regular fa-bookmark marks d-flex justify-content-center align-items-center"></i>
+          </div>
+        </div>
+      </div>
+      <div class="plog position-relative col-2 m-2">
+        <img src="images/trendtpost1.png" class="pligImg rounded-3">
+        <div class="plogContr d-flex flex-column">
+          <div class="plogTitle pr-1">
+            <p>How to Persuade Your Parents to Buy Fast Food</p>
+          </div>
+          <div class="plogContent pr-1 overflow-hidden">
+            <p>Parents often don’t want to buy fast food. They may be worried that it’s too expensive, unhealthy, or not
+              worth the effort and time.</p>
+          </div>
+          <div class="userDetails d-flex justify-content-between rounded-3">
+            <div class="user d-flex justify-content-between">
+              <img src="images/userplog4.png" class="rounded-3">
+              <div class="userInfo d-flex align-items-center flex-column">
+                <p class="userName">Jon Kantner</p>
+                <p class="userDate">May 10 , 2022</p>
+              </div>
+            </div>
+            <i class="fa-regular fa-bookmark marks d-flex justify-content-center align-items-center"></i>
+          </div>
+        </div>
+      </div>
+      <div class="plog position-relative col-2 m-2">
+        <img src="images/trendtpost2.png" class="pligImg rounded-3">
+        <div class="plogContr d-flex flex-column">
+          <div class="plogTitle pr-1">
+            <p>How to Persuade Your Parents to Buy Fast Food</p>
+          </div>
+          <div class="plogContent pr-1 overflow-hidden">
+            <p>Parents often don’t want to buy fast food. They may be worried that it’s too expensive, unhealthy, or not
+              worth the effort and time.</p>
+          </div>
+          <div class="userDetails d-flex justify-content-between rounded-3">
+            <div class="user d-flex justify-content-between">
+              <img src="images/userplog4.png" class="rounded-3">
+              <div class="userInfo d-flex align-items-center flex-column">
+                <p class="userName">Jon Kantner</p>
+                <p class="userDate">May 10 , 2022</p>
+              </div>
+            </div>
+            <i class="fa-regular fa-bookmark marks d-flex justify-content-center align-items-center"></i>
+          </div>
+        </div>
+      </div>
+      <div class="plog position-relative col-2 m-2">
+        <img src="images/lastCard3.png" class="pligImg rounded-3">
+        <div class="plogContr d-flex flex-column">
+          <div class="plogTitle pr-1">
+            <p>How to Persuade Your Parents to Buy Fast Food</p>
+          </div>
+          <div class="plogContent pr-1 overflow-hidden">
+            <p>Parents often don’t want to buy fast food. They may be worried that it’s too expensive, unhealthy, or not
+              worth the effort and time.</p>
+          </div>
+          <div class="userDetails d-flex justify-content-between rounded-3">
+            <div class="user d-flex justify-content-between">
+              <img src="images/userplog4.png" class="rounded-3">
+              <div class="userInfo d-flex align-items-center flex-column">
+                <p class="userName">Jon Kantner</p>
+                <p class="userDate">May 10 , 2022</p>
+              </div>
+            </div>
+            <i class="fa-regular fa-bookmark marks d-flex justify-content-center align-items-center"></i>
+          </div>
+        </div>
+      </div>
+      <div class="plog position-relative col-2 m-2">
+        <img src="images/trendtpost3.png" class="pligImg rounded-3">
+        <div class="plogContr d-flex flex-column">
+          <div class="plogTitle pr-1">
+            <p>How to Persuade Your Parents to Buy Fast Food</p>
+          </div>
+          <div class="plogContent pr-1 overflow-hidden">
+            <p>Parents often don’t want to buy fast food. They may be worried that it’s too expensive, unhealthy, or not
+              worth the effort and time.</p>
+          </div>
+          <div class="userDetails d-flex justify-content-between rounded-3">
+            <div class="user d-flex justify-content-between">
+              <img src="images/userplog4.png" class="rounded-3">
+              <div class="userInfo d-flex align-items-center flex-column">
+                <p class="userName">Jon Kantner</p>
+                <p class="userDate">May 10 , 2022</p>
+              </div>
+            </div>
+            <i class="fa-regular fa-bookmark marks d-flex justify-content-center align-items-center"></i>
+          </div>
+        </div>
+      </div>
+      <div class="plog position-relative col-2 m-2">
+        <img src="images/trendtpost4.png" class="pligImg rounded-3">
+        <div class="plogContr d-flex flex-column">
+          <div class="plogTitle pr-1">
+            <p>How to Persuade Your Parents to Buy Fast Food</p>
+          </div>
+          <div class="plogContent pr-1 overflow-hidden">
+            <p>Parents often don’t want to buy fast food. They may be worried that it’s too expensive, unhealthy, or not
+              worth the effort and time.</p>
+          </div>
+          <div class="userDetails d-flex justify-content-between rounded-3">
+            <div class="user d-flex justify-content-between">
+              <img src="images/userplog4.png" class="rounded-3">
+              <div class="userInfo d-flex align-items-center flex-column">
+                <p class="userName">Jon Kantner</p>
+                <p class="userDate">May 10 , 2022</p>
+              </div>
+            </div>
+            <i class="fa-regular fa-bookmark marks d-flex justify-content-center align-items-center"></i>
+          </div>
+        </div>
+      </div>
+      <div class="plog position-relative col-2 m-2">
+        <img src="images/lastCard1.png" class="pligImg rounded-3">
+        <div class="plogContr d-flex flex-column">
+          <div class="plogTitle pr-1">
+            <p>How to Persuade Your Parents to Buy Fast Food</p>
+          </div>
+          <div class="plogContent pr-1 overflow-hidden">
+            <p>Parents often don’t want to buy fast food. They may be worried that it’s too expensive, unhealthy, or not
+              worth the effort and time.</p>
+          </div>
+          <div class="userDetails d-flex justify-content-between rounded-3">
+            <div class="user d-flex justify-content-between">
+              <img src="images/userplog4.png" class="rounded-3">
+              <div class="userInfo d-flex align-items-center flex-column">
+                <p class="userName">Jon Kantner</p>
+                <p class="userDate">May 10 , 2022</p>
+              </div>
+            </div>
+            <i class="fa-regular fa-bookmark marks d-flex justify-content-center align-items-center"></i>
+          </div>
+        </div>
+      </div>
+      <div class="plog position-relative col-2 m-2">
+        <img src="images/lastCard4.png" class="pligImg rounded-3">
+        <div class="plogContr d-flex flex-column">
+          <div class="plogTitle pr-1">
+            <p>How to Persuade Your Parents to Buy Fast Food</p>
+          </div>
+          <div class="plogContent pr-1 overflow-hidden">
+            <p>Parents often don’t want to buy fast food. They may be worried that it’s too expensive, unhealthy, or not
+              worth the effort and time.</p>
+          </div>
+          <div class="userDetails d-flex justify-content-between rounded-3">
+            <div class="user d-flex justify-content-between">
+              <img src="images/userplog4.png" class="rounded-3">
+              <div class="userInfo d-flex align-items-center flex-column">
+                <p class="userName">Jon Kantner</p>
+                <p class="userDate">May 10 , 2022</p>
+              </div>
+            </div>
+            <i class="fa-regular fa-bookmark marks d-flex justify-content-center align-items-center"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div class="nextContainer marginContainer">
+    <ul class="nextt marginContainer d-flex justify-content-between align-items-center">
+      <li class="rounded-3 d-flex align-items-center justify-content-center next1">1</li>
+      <li class="rounded-3 d-flex align-items-center justify-content-center">2</li>
+      <li class="rounded-3 d-flex align-items-center justify-content-center">3</li>
+      <li class="rounded-3 d-flex align-items-center justify-content-center">..</li>
+      <li class="rounded-3 d-flex align-items-center justify-content-center">9</li>
+      <li class="rounded-3 d-flex align-items-center justify-content-center next2">Next ></li>
+    </ul>
+  
+  </div>
+
+
+  <div class="footer d-flex">
+    <div class="divOne d-flex flex-column">
+      <div class="d-flex justify-content-between">
+        <div class="leftLeftColumn">
+          <div class="about">
+            <div class="Title">
+              <p class="position-relative text-capitalize">mega news</p>
+            </div>
+            <p class="columContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus
+              vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta
+              lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus
+              proin</p>
+          </div>
+          <div class="categories">
+            <div class="Title">
+              <p class="position-relative">Newsletters</p>
+            </div>
+            <div class="columSearch rounded-3 d-flex align-items-center justify-content-between">
+              <input type="search" placeholder="Write your Email .." class="border-0">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+          </div>
+        </div>
+        <div class="rightRightColumn d-flex flex-column">
+          <div class="newsletters">
+            <div class="Title">
+              <p class="text-capitalize position-relative">Categories</p>
+            </div>
+            <div class="columContent d-flex flex-column">
+              <div>Culture</div>
+              <div>Fashion</div>
+              <div>Featured</div>
+              <div>Food</div>
+              <div>Healthy Living</div>
+              <div>Technology</div>
+            </div>
+          </div>
+          <div class="social-network">
+            <div class="Title">
+              <p class="position-relative">social network</p>
+            </div>
+            <div class="socialIcons d-flex align-items-center">
+              <div class="insta d-flex align-items-center text-light rounded-3">
+                <i class="fa-brands fa-instagram text-light"></i>
+                <p>instagram</p>
+              </div>
+              <div class="twiter d-flex align-items-center justify-content-center">
+                <i class="fa-brands fa-twitter text-light"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy d-flex align-items-center justify-content-between">
+        <div class="left">
+          <p>privacy policy | terms & conditions</p>
+        </div>
+        <div class="right">
+          <p>all copyright (c) 2022 reserved</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="colum5">
+      <div class="Title">
+        <p class="position-relative">new Comments</p>
+      </div>
+      <div class="colum5Content d-flex flex-column align-items-center justify-content-between">
+        <div class="comment rounded-3 rounded-3">
+          <div class="head text-capitalize">
+            <p>ellsmartx</p>
+          </div>
+          <div class="subHead">
+            <p class="position-relative">how nice does this look 😍 I feel it should be delicious,</p>
+          </div>
+        </div>
+        <div class="comment rounded-3">
+          <div class="head">
+            <p>ellsmartx</p>
+          </div>
+          <div class="subHead">
+            <p class="position-relative">how nice does this look 😍 I feel it should be delicious,</p>
+          </div>
+        </div>
+        <div class="comment rounded-3">
+          <div class="head">
+            <p>ellsmartx</p>
+          </div>
+          <div class="subHead">
+            <p class="position-relative">how nice does this look 😍 I feel it should be delicious,</p>
+          </div>
+        </div>
+        <div class="comment rounded-3">
+          <div class="head">
+            <p>ellsmartx</p>
+          </div>
+          <div class="subHead">
+            <p class="position-relative">how nice does this look 😍 I feel it should be delicious,</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="colum6">
+      <div class="Titlehtml">
+        <p>Follow on Instagram</p>
+      </div>
+      <div class="colum6Content d-flex flex-wrap align-items-center justify-content-between">
+        <img src="images/insta1.png" class="rounded-3">
+        <img src="images/insta2.png" class="rounded-3">
+        <img src="images/insta3.png" class="rounded-3">
+        <img src="images/insta4.png" class="rounded-3">
+        <img src="images/insta5.png" class="rounded-3">
+        <img src="images/insta6.png" class="rounded-3">
+        <img src="images/insta7.png" class="rounded-3">
+        <img src="images/insta8.png" class="rounded-3">
+        <img src="images/insta9.png" class="rounded-3">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
